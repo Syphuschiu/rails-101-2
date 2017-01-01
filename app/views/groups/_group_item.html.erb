@@ -6,7 +6,7 @@
   <td>
     <% if current_user && current_user == group.user %>
       <%= link_to("Edit", edit_group_path(group), class: "btn btn-sm btn-default")%>
-      <%= link-tp("Delete", group_path(group), class: "btn btn-sm btn-default", method: :delete, data: { conform: "Are you sure?" } )%>
+      <%= link_to("Delete", group_path(group), class: "btn btn-sm btn-default", method: :delete, data: { conform: "Are you sure?" } )%>
     <% end %>
   </td>
 </tr>
